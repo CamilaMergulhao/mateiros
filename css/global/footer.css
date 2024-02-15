@@ -1,0 +1,62 @@
+.footer-bg{
+background-color: var(--cor-fundo-2);
+padding-top: 60px;
+position: relative;
+z-index: 1;
+}
+
+.footer{
+display: flex;
+justify-content: center;
+align-content: center;
+
+}
+
+.logo-mateiros-footer{
+width: 200px;
+height: auto;
+}
+
+.copy{
+display: flex;
+background-color: var(--cor-fundo-3);
+justify-content: center;
+align-items: center;
+gap: 8px;
+margin-top: 60px;
+}
+
+.copy a{
+padding: 12px 10px 12px 10px;
+}
+
+.logo-mergu{
+width: 35px;
+}
+
+
+
+/* media queries */
+
+@media(max-width: 768px){
+.logo-mateiros-footer{
+width: 180px;
+}
+}
+
+@media(max-width: 480px){
+.footer-bg{
+padding-top: 40px;
+}
+
+.logo-mateiros-footer{
+width: 150px;
+}
+.copy{
+margin-top: 40px;
+}
+}
+
+
+
+

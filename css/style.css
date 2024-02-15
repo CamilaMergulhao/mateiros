@@ -1,0 +1,47 @@
+@import "global/global.css";
+@import "global/header.css";
+@import "global/contato.css";
+@import "global/footer.css";
+@import "global/menu-mobile.css";
+
+/*Utilidades*/
+@import "utilidades/componentes.css";
+@import "utilidades/tipografia.css";
+@import "utilidades/cores.css";
+@import "utilidades/menus.css";
+@import "utilidades/decorativos.css";
+
+/*home*/
+@import "home/slide.css";
+@import "home/introducao.css";
+@import "home/quem-somos.css";
+@import "home/destinos-home.css";
+
+
+/* destinos */
+@import "destinos/destinos-intro.css";
+@import "destinos/destinos-descricao.css";
+@import "destinos/destinos-exigencias.css";
+@import "destinos/destinos-infos.css";
+
+
+/* agenda */
+@import "agenda/agenda.css";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

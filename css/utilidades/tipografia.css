@@ -1,0 +1,202 @@
+/* TITULOS */
+
+/* extra-grande */
+.font-title-gg-extra-caps{
+font-family: 'Gabarito', sans-serif;
+font-size: 3.5rem;
+letter-spacing: 0.125rem;
+font-weight: 900;
+text-transform: uppercase;
+line-height: 1;
+} 
+
+.font-title-g-extra-caps{
+font-family: 'Gabarito', sans-serif;
+font-size: 3rem;
+letter-spacing: 0.125rem;
+font-weight: 900;
+line-height: 1;
+text-transform: uppercase;
+} 
+
+/* font-slider */
+.font-title-slider{
+font-family: 'Fendesert Sans', sans-serif;
+font-size: 3rem;
+letter-spacing: 0.125rem;
+font-weight: normal;
+line-height: 1.1;
+} 
+
+/* grande */
+.font-title-g1-caps{
+font-family: 'Gabarito', sans-serif;
+font-size: 2.5rem;
+font-weight: 800;
+line-height: 1;
+text-transform: uppercase;
+} 
+
+
+.font-title-g11-caps{
+font-family: 'Gabarito', sans-serif;
+font-size: 2.5rem;
+font-weight: 800;
+line-height: 1;
+text-transform: uppercase;
+} 
+
+.font-title-g2-caps-normal{
+font-family: 'Gabarito', sans-serif;
+font-size: 2rem;
+font-weight: 600; 
+} 
+
+
+/* média */
+.font-title-m-caps{
+font-family: 'Gabarito', sans-serif;
+font-size: 1.5rem;
+font-weight: 600;
+text-transform: uppercase;
+} 
+
+/* pequena */
+.font-title-p-caps-bold{
+font-family: 'Gabarito', sans-serif;
+font-size: 1.25rem;
+font-weight: 700; 
+text-transform: uppercase;
+ }
+
+.font-title-pp-caps-bold{
+font-family: 'Gabarito', sans-serif;
+font-size: 1.125rem;
+font-weight: 700;
+text-transform: uppercase;   
+} 
+
+.font-title-p-caps{
+font-family: 'Gabarito', sans-serif;
+font-size: 1.125rem;
+font-weight: 700; 
+}
+
+
+/* TEXTOS */
+
+/* grande */
+.font-text-g1-caps-bold{
+font-family: 'Arimo', sans-serif;
+font-size: 1.125rem;
+font-weight: 600; 
+line-height: 1.4;
+text-transform: uppercase;
+}
+
+
+.font-text-g1-normal{
+font-family: 'Arimo', sans-serif;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 1.5;
+}
+
+/* média */
+.font-text-m-caps-bold{
+font-family: 'Arimo', sans-serif;
+font-size: 1rem;
+font-weight: 700; 
+}
+
+.font-text-m-1-normal{
+font-family: 'Arimo', sans-serif;
+font-size: 1rem;
+font-weight: normal; 
+line-height: 1.2;
+} 
+
+.font-text-m-normal{
+font-family: 'Arimo', sans-serif;
+font-size: 1rem;
+font-weight: normal; 
+line-height: 1.7;
+}
+
+.font-text-m-normal-bold{
+font-family: 'Arimo', sans-serif;
+font-size: 1rem;
+font-weight: 700; 
+} 
+
+
+/* pequena */
+.font-text-p-caps{
+font-family: 'Arimo', sans-serif;
+font-size: 0.875rem;
+font-weight: 400; 
+text-transform: uppercase;
+}  
+
+
+/* media queries */
+
+@media(max-width: 1000px){
+.font-title-g11-caps{
+font-size: 2rem;
+}
+}
+
+@media(max-width: 768px){
+.font-title-gg-extra-caps{
+font-size: 3rem;
+} 
+
+.font-text-g1-normal, .font-text-m-normal{
+font-size: 1rem;
+line-height: 1.5;
+}
+
+.font-title-g-extra-caps{
+font-size: 2.5rem;
+} 
+
+.font-title-g1-caps{
+font-size: 2rem;
+}
+
+.font-title-g11-caps{
+font-size: 1.5rem;
+}
+
+.font-title-g2-caps-normal{
+font-size: 1.5rem;
+} 
+
+}
+
+@media(max-width: 480px){
+.font-title-slider{
+font-size: 2.5rem;
+line-height: 1.1;
+} 
+
+.font-title-g1-caps{
+font-size: 1.563rem;
+}
+
+
+.font-title-g-extra-caps{
+font-size: 2rem;
+} 
+
+
+.font-title-g11-caps{
+font-size: 1.25rem;
+}
+
+
+.font-title-gg-extra-caps{
+font-size: 2.5rem;
+} 
+}

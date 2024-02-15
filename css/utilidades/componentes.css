@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+.container{
+box-sizing: border-box; 
+padding: 0px 15px 0px 15px;
+max-width: 1200px; 
+margin: 0 auto;
+}
+
+
+.container-mod-min{
+box-sizing: border-box; 
+padding: 0px 15px 0px 15px;
+max-width: 1000px; 
+margin: 0 auto;
+}
+
+
+/* icone de '+' do faq */
+.mais-infos{
+font-family: 'Gabarito', sans-serif;
+font-size: 2.5rem;
+font-weight: 600; 
+line-height: 1;
+text-transform: uppercase;
+}
+
+
+/* link´s (fale conosco e agenda) da página 'destinos' */
+.btn-destinos{
+padding: 10px 15px;
+border: 1px solid var(--cor-fundo-1);
+display: flex;
+justify-content: center;
+color: var(--cor-brand-2);
+transition: .3s;
+}
+  
+.btn-destinos:hover{
+border: 1px solid var(--cor-brand-2);
+}
+
+.btn-slider{
+padding: 10px 15px;
+max-width: max-content;
+background-color: var(--cor-brand-1);
+display: flex;
+justify-content: center;
+color: var(--cor-fundo-1);
+transition: .3s;
+border-radius: 5px;
+}
+
+.btn-slider:hover{
+background-color: var(--cor-id-1);
+}
+  
+
+/* media queries */
+
+@media(max-width: 768px){
+.container-mod-min{
+max-width: 1200px; 
+margin: 0 auto;
+box-sizing: border-box;
+}
+
+.btn-destinos{
+display: none;
+}
+
+
+.mais-infos{
+font-size: 2rem;
+}
+  
+}

@@ -1,0 +1,64 @@
+
+:root{
+/*brand*/
+--cor-brand-1: #42591C;
+--cor-brand-2: #F7CF05;
+
+/*id*/
+--cor-id-1: #546930;
+--cor-id-2: #2F3E16;
+--cor-id-3: #242F10;
+--cor-id-4: #2C3312; /*menu*/
+--cor-id-5: #c6a709;
+
+/*fundos*/
+--cor-fundo-1: #FFFFFF;
+--cor-fundo-2: #ECECEC;
+--cor-fundo-3: #D9D9D9;
+--cor-fundo-4: #262624;
+}
+
+
+.cor-brand-1{
+color: var(--cor-brand-1);
+}
+
+.cor-brand-2{
+color: var(--cor-brand-2);
+}
+
+.cor-id-1{
+color: var(--cor-id-1);   
+}
+
+.cor-id-2{
+color: var(--cor-id-2);   
+}
+
+.cor-id-3{
+color: var(--cor-id-3);   
+}
+
+.cor-id-4{
+color: var(--cor-id-4);   
+}
+
+.cor-fundo-1{
+color: var(--cor-fundo-1);    
+}
+
+.cor-fundo-2{
+color: var(--cor-fundo-2);    
+}
+
+.cor-fundo-3{
+color: var(--cor-fundo-3);    
+}
+
+.cor-fundo-4{
+color: var(--cor-fundo-4);    
+}
+
+.cor-id-5{
+color: var(--cor-id-5);
+}

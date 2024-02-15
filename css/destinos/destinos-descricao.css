@@ -1,0 +1,71 @@
+.destinos-descricao-bg{
+background-color: var(--cor-id-3);
+position: relative;
+}
+
+.destinos-descricao{
+padding-top: 100px;
+padding-bottom: 100px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: start;
+justify-content: center;
+}
+
+
+.destinos-descricao-box-1{
+display: grid;
+grid-template-columns: 600px;
+}
+
+.destinos-descricao-title{
+margin-bottom: 60px;
+}
+
+.destinos-descricao-box-1 h2{
+margin-bottom: 8px;
+}
+
+.destinos-descricao-box-2{
+display: flex;
+flex-direction: column;
+gap: 15px;
+justify-self: end;
+}
+
+
+/* configuracoes-extras */
+.margin-bottom-extra{
+margin-bottom: 30px
+
+}
+
+
+
+/* media queries */
+
+@media(max-width: 768px){
+.destinos-descricao-title{
+margin-bottom: 40px;
+}
+
+.destinos-descricao-box-1{
+display: flex;
+flex-direction: column;
+}
+
+.destinos-descricao{
+padding-top: 80px;
+padding-bottom: 80px;
+grid-template-columns: 1fr;
+margin-left: 15px;
+margin-right: 15px;
+}
+}
+
+@media(max-width: 480px){
+.destinos-descricao{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+}

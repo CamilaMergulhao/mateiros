@@ -1,0 +1,138 @@
+[data-menu="btn-mobile"] {
+display: none;
+background-color: transparent;
+max-width: max-content;
+border-radius: 50%;
+border: 2px solid var(--cor-id-4);
+cursor: pointer;
+height: 50px;
+width: 50px;
+align-items: center;
+justify-content: center;
+}
+
+#hamburguer {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 45px;
+width: 45px;
+gap: 4px;
+background-color: transparent;
+}
+
+.hamburguer-span {
+height: 3.5px;
+width: 25px;
+background-color: var(--cor-id-4);
+display: block;
+transition: .3s;
+position: relative;
+}
+
+[data-menu="btn-mobile"].ativarMenu .hamburguer-span:nth-child(1) {
+    background-color: transparent;
+}
+
+[data-menu="btn-mobile"].ativarMenu .hamburguer-span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+[data-menu="btn-mobile"].ativarMenu .hamburguer-span:nth-child(3) {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 900px) {
+
+[data-menu="btn-mobile"] {
+display: flex;
+}
+
+.header-menu {
+display: none;
+}
+
+#header-menu-mobile{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 40px;
+background-color: var(--cor-brand-2);
+width: 100vw;
+height: 80vh;
+top: 100px;
+right: 0;
+z-index: 2;
+position: absolute;
+transform: translateX(-100%);
+transition: .4s ease-in-out, transform .4s ease-in-out
+}
+
+
+#header-menu-mobile.ativarMenu {
+visibility: visible;
+animation: menuIntro .4s ease-in-out;
+transform: translateX(0);
+}
+}
+
+
+#header-menu-mobile.ativarMenu li a{
+padding: 0.625rem;
+margin: 0.3125rem 0.9375rem;
+border-bottom: 1px solid var(--cor-id-5);
+}
+    
+
+
+@keyframes menuIntro {
+    from {
+        transform: translatex(-100%);
+    }
+    to {
+        transform: translatex(0);
+    }
+
+} 
+
+@keyframes menuOut {
+    from {
+        transform: translatex(0);
+    }
+    to {
+        transform: translatex(-100%);
+    }
+
+} 
+
+
+@media(max-width: 650px){
+#header-menu-mobile{
+top: 90px;
+}
+}
+    
+
+@media(max-width: 480px){
+[data-menu="btn-mobile"] {
+border: 2px solid var(--cor-id-4);
+height: 40px;
+width: 40px;
+}
+
+.hamburguer-span {
+height: 3px;
+width: 18px;
+}
+
+#header-menu-mobile{
+top: 80px;
+}
+}
+

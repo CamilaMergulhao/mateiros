@@ -1,0 +1,172 @@
+.destinos-infos-bg{
+background-color: var(--cor-id-3);
+}
+
+.destinos-infos{
+padding-top: 100px;
+padding-bottom: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+/* Mais infos - Titulo */
+.destinos-infos h2{
+margin-bottom: 60px;
+text-align: center;
+}
+
+/* Mais infos - Box */
+.destinos-infos-ctn{
+max-width: 900px;
+}
+
+.destinos-infos-box{
+width: 800px;
+}
+
+.destinos-infos-box:hover{
+background-color: var(--cor-id-4);
+}
+
+
+
+/* Mais infos box -Title */
+.destinos-infos-box-title{
+display: flex;
+justify-content: space-between;
+border: 1px solid var(--cor-id-1);
+cursor: pointer;
+}
+
+.destinos-infos-box-title h3{
+padding: 15px 10px 15px 20px;
+}
+
+.destinos-infos-box-title span{
+padding: 15px 10px 15px 20px;
+}
+
+
+/* Mais infos box - Texto */
+.destinos-infos-box-texto{
+background-color: var(--cor-brand-2);
+padding: 20px
+}
+
+.destinos-infos-box-texto h4{
+margin-bottom: 6px;
+}
+
+.destino-infos-texto{
+max-width: 600px;
+}
+
+.destinos-infos-detalhes{
+margin-bottom: 40px;
+max-width: max-content;
+}
+
+.destino-infos-texto li{
+list-style: disc;
+margin-left: 25px;
+}
+
+
+
+
+
+/* javascript title */
+[data-accordion="js-accordion"] .destinos-infos-box-title span{
+transform: rotate(-180deg);
+transition: .1s;
+}
+
+[data-accordion="js-accordion"] .destinos-infos-box-title.ativo span{
+transform: rotate(-135deg);
+}
+
+[data-accordion="js-accordion"] .ativo.destinos-infos-box-title {
+background-color: var(--cor-brand-2);
+border: 0;
+}
+
+[data-accordion="js-accordion"] .ativo.destinos-infos-box-title h3, .destinos-infos-box-title.ativo span {
+color: var(--cor-id-4);
+}
+
+
+/* javascript texto*/
+[data-accordion="js-accordion"] .destinos-infos-box-texto{
+display: none;
+}
+
+[data-accordion="js-accordion"] .destinos-infos-box-texto.ativo{
+display: block;
+animation: animacao .2s forwards;
+}
+
+
+@keyframes animacao{
+    from{
+        /* opacity: 0; */
+        transform: translate3d(0, -30px, 0);
+    }
+
+
+   to{
+        /* opacity: 1; */
+        transform: translate3d(0, 0px, 0);
+    }
+}
+
+
+/* media queries */
+
+@media(max-width: 1000px){
+.destinos-infos{
+margin-left: 15px;
+margin-right: 15px;
+}
+}
+
+@media(max-width: 850px){
+.destinos-infos-box{
+width: 600px;
+}
+}
+
+
+@media(max-width: 768px){
+.destinos-infos{
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.destinos-infos h2{
+margin-bottom: 40px;
+}
+
+.destinos-infos-box{
+width: 500px;
+}
+}
+
+
+@media(max-width: 550px){
+.destinos-infos-box{
+width: 400px;
+}
+}
+
+@media(max-width: 480px){
+.destinos-infos{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.destinos-infos-box{
+width: 320px;
+}
+}
